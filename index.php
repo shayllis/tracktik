@@ -142,10 +142,18 @@ $shoppingList = new ElectronicItems([
 
 $itemsByPrice = $shoppingList->getSortedItems();
 
+echo "<strong>Question 1</strong><br>\n";
+
 foreach($itemsByPrice as $item) {
-    echo "Item: {$item->getType()} - {$item->getTotalPrice()}\n<br>";
+    echo "Item: {$item->getType()} - {$item->getTotalPrice()}<br>\n";
 }
 
-echo "Total: {$shoppingList->getTotalPrice()}\n";
+echo "Total: {$shoppingList->getTotalPrice()}<br>\n";
+
+
+echo "<br><strong>Question 2</strong><br>\n";
+
+
+echo "They had cost her <strong>{$console->getTotalPrice()}</strong>";
 
 // Create buying items
