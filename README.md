@@ -1,5 +1,5 @@
 # Hi
-Here comes my solution for TrackTik PHP Bkacnend challange. I have separated the main classes to make it easier to view them on screen.
+Here comes my solution for TrackTik PHP Backend challange. I have separated the main classes to make it easier to view them on screen.
 
 ### Coding Style
 I tried to apply the PSR-2 conceptions along with part of SOLID elements.
