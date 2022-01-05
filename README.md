@@ -5,9 +5,9 @@ Here comes my solution for TrackTik PHP Backend challange. I have separated the 
 I tried to apply the PSR-2 conceptions along with part of SOLID elements.
 
 ### Premises/Considerations
-1 - There must be an extras number validation
-2 - Controllers can have their own price
-3 - Controller price is added to product price in "total price calculation"
+1. There must be an extras number validation
+2. Controllers can have their own price
+3. Controller price is added to product price in "total price calculation"
 
 ## Bug fixed from original code
 1. Sorting by price function returns bool value
