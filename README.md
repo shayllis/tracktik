@@ -1,6 +1,10 @@
 # Hi
 Here comes my solution for TrackTik PHP Backend challange. I have separated the main classes to make it easier to view them on screen.
 
+### Before you run
+1. This code in compatible with PHP 7.2+
+2. The main file is index.php
+
 ### Coding Style
 I tried to apply the PSR-2 conceptions along with part of SOLID elements.
 
@@ -10,8 +14,8 @@ I tried to apply the PSR-2 conceptions along with part of SOLID elements.
 3. Controller price is added to product price in "total price calculation"
 
 ## Bug fixed from original code
-1. Sorting by price function returns bool value
-2. Sorting by price function merges items with same value
+1. Sorting by price function returns bool value intead of the list
+2. Sorting by price function merges items with the same price
 
 ## Scenarios
 #### Console
